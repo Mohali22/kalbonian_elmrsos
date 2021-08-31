@@ -1,4 +1,4 @@
-# These are the answers to the chapter one quiz
+# These are the answers to the chapter two quiz
 
 ## Question 1
 You have Python 3 installed. How will you run the Python code in the file "process.py" on the command-line prompt?
@@ -24,6 +24,10 @@ You need to install a VS Code extension to support Python.
 
 ## Question 4
 What does this expression evaluate to?
+
+```
+2 * 3 + 2 * 5
+```
 
 
 ## Answer 4
