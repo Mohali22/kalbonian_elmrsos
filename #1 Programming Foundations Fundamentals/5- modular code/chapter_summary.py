@@ -54,3 +54,29 @@ def my_name(frist_name, last_name):
 
 
 my_name("Mohamed", "ali")
+
+
+# Returning values from functions #
+# ------------------------------- #
+
+# The return keyword is to return a value from the function and exit a function
+
+# example
+
+def calc_number(x,y):
+    return print(x + y) # the return value from this function will be total variables ==> X and Y
+    print("this not working") # this code not working because this code comes after the retuen keyword
+
+calc_number(5,10) # the return value equal ==> 15
+
+
+# Functions across languages #
+# -------------------------- #
+
+# this function in JAVA
+
+# void say_hello() { 
+#     System.out.printIn("Hello world!");
+# }
+
+# void keyword in JAVA  Specifies the return type from the function, void means 
