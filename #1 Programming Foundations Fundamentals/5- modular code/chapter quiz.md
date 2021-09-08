@@ -1,143 +1,175 @@
-# These are the answers to the chapter four quiz
+# These are the answers to the chapter five quiz
 
 ## Question 1
-With if-else statements, we will always execute one of the code blocks depending on the result of the condition test.
+Which keyword does Python use to define a function?
 
 ## Answer 1
-true 
+def 
 
 
 ## Question 2
-Which operator will you use to return true if two variables are different?
+What does the void keyword mean when it is specified before a function definition?
 
 
 ## Answer 2
-!=
+The function does not return a value.
 
 
 ## Question 3
-Which if-else statement will not produce this output?
+What can the following function be used for?
 
 ```
-is divisible by 3
+def mystery(x):
+  if (x % 2 == 0):
+  return("yes")
+  else:
+  return("no")
 ```
-
 
 ## Answer 3
-```
-num = 16
- if num % 3 == 0:
-  print("is divisible by 3")
- else:
-  print("is not divisible by 3")
-```
+checking whether a number is even or odd
+
+
 
 ## Question 4
-Any expression that breaks down to either true or false is called a conditional, or _____.
+Which is not a benefit of functions?
 
 
 ## Answer 4
-boolean expression
+Functions eliminate crashes in your code.
+
 
 
 ## Question 5
-This if-else statement is written in _____.
+What will the following code print?
 
 ```
-if "apples" == "apples"
-  puts "You're comparing the same thing"
- end
+def compare():
+  print(5, "is greater than", 6)
 ```
 
 ## Answer 5
-Ruby
+This code will not print anything.
 
 
 ## Question 6
-Which of these is not a relational operator?
+The code that's contained inside of a function is often called the function's legs.
 
 ## Answer 6
-=
+FALSE
 
 
 ## Question 7
-What is the issue with the following code?
+Why is there no output for this program?
 
 ```
-number = input("Enter a number: ")
- if number == 10:
-  print("The number is greater than 10.")
- else:
-  print("The number is less than 10.") 
+def goodbye():
+  print("Bye")
 ```
 
 
 ## Answer 7
-The conditional statement is checking for equality.
+We never called the goodbye function.
 
 
 
 ## Question 8
-What is the output of this program?
+Given the following code, how would you call the function?
 
 ```
-num = 16
- if num % 3 == 0:
-  print(num, "is divisible by 3")
- print("The end")
+def hello(name):
+  print("Hey,", name)
 
 ```
 
 ## Answer 8
-The end
+```
+hello("John")
+```
 
 
 ## Question 9
-Multiple statements grouped together are called a _____.
+What is the issue with this function as defined?
 
+```
+def double():
+  print(x*2)
+```
 
 ## Answer 9
-block
+The number to double is not received.
 
 
 ## Question 10
-Which code can you use to print if a test score is a pass or a fail?
+Which Python keyword is used to send back values from a function?
 
 
 ## Answer 10
-```
-if (score>=60):
-  print("passed")
- else:
-  print("failed")
-```
+return
 
 
 
 ## Question 11
-What will the following condition print?
+What will the following program print?
 
 ```
-if (num>=0):
-  print(num)
- else:
-  print(-1 * num)
+def mult_inv(num):
+  return 1/num
+ result=mult_inv(3)
+ print(result)
 ```
 
 ## Answer 11
-the absolute value of num
+```
+0.333333333
+```
 
 
 ## Question 12
 What is the output of the following program?
 
 ```
-number = 10
- if number % 4 == 0:
-  print(number, "is divisible by 4")
- print("All done")
+def isEven(num):
+  return num % 2 == 0
+
+ if isEven(3):
+  print("3 is even")
+ else:
+  print("3 is not even")
 ```
 
 ## Answer 12
-All done
+3 is not even
 
+## Question 13
+Given the first line of the function definition below, which programming language is this?
+
+```
+def factorial(number)
+```
+
+## Answer 13
+Ruby
+
+## Question 14
+Which value is not an argument to the "hello" function?
+
+```
+def hello(name):
+  print("Hey,", name)
+
+ hello("John")
+ hello("Mya")
+```
+## Answer 14
+Hey
+
+## Question 15
+In this function definition, the variable "name" is _____.
+
+```
+def hello(name):
+  print("Hey,", name)
+```
+## Answer 15
+a parameter

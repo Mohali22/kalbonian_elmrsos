@@ -63,11 +63,14 @@ my_name("Mohamed", "ali")
 
 # example
 
-def calc_number(x,y):
-    return print(x + y) # the return value from this function will be total variables ==> X and Y
-    print("this not working") # this code not working because this code comes after the retuen keyword
+def calc_number(x, y):
+    # the return value from this function will be total variables ==> X and Y
+    return print(x + y)
+    # this code not working because this code comes after the retuen keyword
+    print("this not working")
 
-calc_number(5,10) # the return value equal ==> 15
+
+calc_number(5, 10)  # the return value equal ==> 15
 
 
 # Functions across languages #
@@ -75,8 +78,8 @@ calc_number(5,10) # the return value equal ==> 15
 
 # this function in JAVA
 
-# void say_hello() { 
+# void say_hello() {
 #     System.out.printIn("Hello world!");
 # }
 
-# void keyword in JAVA  Specifies the return type from the function, void means 
+# void keyword in JAVA  Specifies the return type from the function, void means the function does not return a value
