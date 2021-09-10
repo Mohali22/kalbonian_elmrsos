@@ -69,6 +69,7 @@ dict_name = {
 # you can access them by referring to the index number
 # Choose the name of the variable or the name of the list and open square brackets ==> [],
 # and then write the index number inside the square brackets ==> [1]
+# In a list, the count starts from zero, which means that the first item in the list is the index number zero
 
 # example
 
@@ -93,3 +94,25 @@ dict_name = {
 
 
 dict_name["age"]  # will choose item of key name (age) ==> 34
+
+
+# Collections in other languages #
+# ------------------------------ #
+
+# 1- Collections differ from one language to another in Python. Collections such as lists and dictionaries can contain different types of data from strings, numbers, and even logical values.
+# Unlike the C++ programming language, the type of data contained in collections must be specified before they are created, and this data cannot be changed after creation
+
+# 2- In Python, there is a type of collection called a tuple. Once you create a tuple, you can't change it.
+# 3- collection have other names in different programming languages
+# For example, lists in the JavaScript are called arrays, and dictionaries are called objects or maps
+
+
+# example for tuple
+
+# When creating a tuple, the items are enclosed in parentheses (), and they are separated by the commas (,).
+# Items are not changed or modified
+tuple_name = (
+    'Mohamed',
+    True,
+    34
+)
