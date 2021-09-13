@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./#2 Programming Foundations Beyond the Fundamentals/3-external_code/modules"
+    ]
+}
