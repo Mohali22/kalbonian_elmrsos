@@ -1,4 +1,4 @@
-# These are the answers to the chapter two quiz
+# These are the answers to the chapter three quiz
 
 ## Question 1
 Why do developers sometimes use shared code in their programs?
