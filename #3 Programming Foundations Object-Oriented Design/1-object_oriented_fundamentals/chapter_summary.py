@@ -121,3 +121,28 @@
 
 
 # 4- Polymorphism
+
+# Analysis, design, and programming #
+# --------------------------------- #
+
+# 1-  Start by gathering requirements to figure out what our application needs to do.
+# Really flesh out the problem you're trying to solve.
+
+# 2- describe the application. Build a narrative in plain, conversational language for how people will use it.
+
+# 3-  Step three involves identifying the most important objects, which is the starting point for identifying actual classes.
+# Once those objects have been identified, formally describe the interactions between them,
+# understanding each object's responsibilities, the behaviors they need to have, and when they interact with other objects
+
+# 4-  And finally, create a class diagram, which serves as the main output from the five-step process.
+# The class diagram is a visual representation of the classes in the application,
+# and creating it is where the object oriented principles like inheritance and polymorphism really come into play.
+
+
+# what is Unified Modeling Language #
+# --------------------------------- #
+
+# Unified Modeling language (UML) is a standardized modeling language enabling developers to specify, visualize,
+# construct and document artifacts of a software system. Thus, UML makes these artifacts scalable,
+# secure and robust in execution. UML is an important aspect involved in object-oriented software development.
+# It uses graphic notation to create visual models of software systems.
