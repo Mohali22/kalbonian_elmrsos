@@ -88,7 +88,7 @@
 
 
 # 1- Abstraction
-# Data abstraction is one of the most essential and important feature of object oriented programming.
+# Data abstraction is one of the most essential and important features of object-oriented programming.
 # Abstraction means displaying only essential information and hiding the details.
 # Data abstraction refers to providing only essential information about the data to the outside world,
 # hiding the background details or implementation.
@@ -118,6 +118,9 @@
 # The class to be inherited from is called the superclass or parental class.
 # One of the advantages of inheritance is that if you make a change in a superclass,
 # It will automatically filter and affect all subclasses.
+# along with the inherited properties and methods, a child class can have its own properties and methods.
+
+
 
 
 # 4- Polymorphism
