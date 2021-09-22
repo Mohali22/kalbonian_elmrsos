@@ -1,73 +1,77 @@
-# These are the answers to the chapter two quiz
+# These are the answers to the chapter three quiz
 
 ## Question 1
-What is the first step in defining requirements for an application?
+When creating a use case diagram, what can you do to show each self-contained use case?
 
 ## Answer 1
-determining what the application must have and do
+draw an ellipse around each use case
+
 
 ## Question 2
-Which is a valid nonfunctional requirement?
+What is wrong with the following scenario description. "The pedals were used to control speed and direction."
 
 ## Answer 2
-The system should be updated annually.
+It is passive and focuses on means instead of intent.
 
 ## Question 3
-A requirement that all onscreen text must be at least 20-point font size is an example of which FURPS quality?
+What is the function of a use case diagram?
 
 ## Answer 3
-usability
+It connects actors to use cases.
+
 
 ## Question 4
-In which category does extensibility of an application reside?
+Why are arrows and numbers not found in use case diagrams?
 
 ## Answer 4
-supportability
+Sequence and direction are not critical at this stage.
 
 ## Question 5
-Atul is working on an application that must communicate with a scientific instrument and a data archiving system. Into which category would these requirements fall in the FURPS+ model?
+What is typically written on index cards, and describes a small scenario from a user perspective?
 
 ## Answer 5
-interface
+user story
+
 
 ## Question 6
-What is the first step in defining requirements for an application?
+User stories are _____ than use cases.
 
 ## Answer 6
-determining what the application must have and do
+shorter and less detailed
 
 ## Question 7
-Which is a valid nonfunctional requirement?
+Marge is working on a short and simple project involving inventory maintenance. Why should she write short use cases?
 
 ## Answer 7
-The system should be updated annually.
+They help identify problems but do not create the confusing work of full use cases.
 
 ## Question 8
-A requirement that all onscreen text must be at least 20-point font size is an example of which FURPS quality?
+Which sentence is most appropriate for a use case scenario?
 
 ## Answer 8
-usability
+User adjusts contrast and brightness controls.
 
 ## Question 9
-In which category does extensibility of an application reside?
+What is the role of the primary actor in a use case?
 
 ## Answer 9
-supportability
+to interact with the application to achieve the goal
 
 ## Question 10
-Atul is working on an application that must communicate with a scientific instrument and a data archiving system. Into which category would these requirements fall in the FURPS+ model?
+When are fully fleshed out cases most appropriate?
 
 ## Answer 10
-interface
+for large, complex projects
 
 ## Question 11
-In which category does extensibility of an application reside?
+You are creating a use case for an application that controls the dispensing of gasoline at a pump. Who is the primary actor in this scenario?
 
 ## Answer 11
-supportability
+the customer who uses the pump
+
 
 ## Question 12
-Atul is working on an application that must communicate with a scientific instrument and a data archiving system. Into which category would these requirements fall in the FURPS+ model?
+What distinguishes primary actors?
 
 ## Answer 12
-interface
+application initiation
